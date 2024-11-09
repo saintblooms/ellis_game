@@ -1,0 +1,74 @@
+/* Styling for the basketball game */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b0e0e6;
+}
+
+#game {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background-color: #ffebcd;
+  overflow: hidden;
+  border: 5px solid #333;
+  border-radius: 10px;
+}
+
+#hoop {
+  position: absolute;
+  top: 80px;
+  left: 140px;
+  width: 120px;
+  height: 20px;
+  background-color: #ff4500;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+#hoop-text {
+  position: absolute;
+  top: -30px;
+  color: #000;
+  font-size: 24px;
+}
+
+#ball {
+  position: absolute;
+  bottom: 40px;
+  left: 180px;
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 50%;
+  border: 3px solid #ff8c00;
+  cursor: pointer;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+}
+
+#message {
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
